@@ -1,0 +1,9 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "defaultViewMode": "preview",
+  "spellcheck": false,
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "04_시각자료",
+  "newFileFolderPath": "00_임시"
+}
