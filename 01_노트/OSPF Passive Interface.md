@@ -1,3 +1,11 @@
+---
+uid: 202602230016
+aliases: []
+tags: [network, routing, ospf, config]
+source: RAPA 수업 (2/23)
+created: 2026-02-23
+status: complete
+---
 # 개념
 - 특정 인터페이스에 [[OSPF]] Hello 패킷 전송을 막기 위해 사용하는 기능
 - 말단(호스트)장비와 연결되는 인터페이스에 주로 적용함
@@ -7,6 +15,7 @@
 Router(config)#router ospf 1
 Router(config-router)#passive-interface ? # ?의 내용을 인터페이스 명칭으로 치환
 ```
+# 나만의 언어로
+
 # 상위 개념
 - [[OSPF]]
-# 유사 개념

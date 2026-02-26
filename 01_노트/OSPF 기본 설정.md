@@ -1,3 +1,11 @@
+---
+uid: 202602230018
+aliases: []
+tags: [network, routing, ospf, config]
+source: RAPA 수업 (2/23)
+created: 2026-02-23
+status: complete
+---
 ```
 Router(config)# router ospf [process_id]
 
@@ -16,3 +24,7 @@ Router(config-router)# network [ip-address] [wildcard-mask] area [area-id]
 - Wildcard Mask는 서브넷 마스크를 반대로 뒤집은 형태의 마스크임.
 	- IP주소의 어떤 부분을 정확히 검사하고 어떤 부분을 무시할지 라우터에게 알려주기 위한 기준
 - Area ID는 해당 네트워크가 소속될 OSPF 영역 번호임.
+# 나만의 언어로
+
+# 상위 개념
+- [[OSPF]]

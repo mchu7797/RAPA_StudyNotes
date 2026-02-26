@@ -1,3 +1,11 @@
+---
+uid: 202602230012
+aliases: [OSPF 영역, ABR, ASBR]
+tags: [network, routing, ospf]
+source: RAPA 수업 (2/23)
+created: 2026-02-23
+status: complete
+---
 # 개념
 - [[OSPF]]는 Area 개념과 같이 동작함. 
 	- 단일 영역 환경에서는 기본적으로 Area 0에서 동작
@@ -18,5 +26,10 @@
 ![[ospf_single_area.png]]
 ## 멀티 토폴로지
 ![[ospf_multiple_area.png]]
+# 나만의 언어로
+
 # 상위 개념
 - [[OSPF]]
+# 관련 개념
+- [[OSPF Multi Process]]
+- [[Redistribute]]

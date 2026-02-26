@@ -1,3 +1,11 @@
+---
+uid: 202602230015
+aliases: []
+tags: [network, routing, ospf, metric, config]
+source: RAPA 수업 (2/23)
+created: 2026-02-23
+status: complete
+---
 # 방법 1 : auto-cost 설정을 사용해 reference bandwidth를 설정한다.
 ```
 
@@ -13,6 +21,8 @@ R1(config-router)#auto-cost reference-bandwidth 10000
 R3(config)#int gi 0/1/0
 R3(config-if)#ip ospf cost 191
 ```
+# 나만의 언어로
+
 # 상위 개념
 - [[OSPF Metric]]
 - [[OSPF]]

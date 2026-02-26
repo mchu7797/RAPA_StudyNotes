@@ -1,3 +1,11 @@
+---
+uid: 202602230017
+aliases: [RID, Router ID]
+tags: [network, routing, ospf]
+source: RAPA 수업 (2/23)
+created: 2026-02-23
+status: complete
+---
 # 개념
 - [[OSPF]]는 효율적인 운영 환경을 위해 고유한 Router ID가 필요함. (IP 주소 형식)
 	1. [[OSPF]]설정 과정에서 운영자가 직접 입력
@@ -7,6 +15,8 @@
 - [[OSPF Neighbor]] 협상 과정에서 결정된 Router ID는 변경 불가
 	- Router ID 변경을 위해서는 [[OSPF Neighbor]] 재협상이 필요함.
 ![[ospf_router_id.png]]
+# 나만의 언어로
+
 # 상위 개념
 - [[OSPF Neighbor]]
 - [[OSPF]]

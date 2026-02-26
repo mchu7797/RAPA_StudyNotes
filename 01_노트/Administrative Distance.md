@@ -1,3 +1,11 @@
+---
+uid: 202602230009
+aliases: [AD]
+tags: [network, routing, administrative-distance]
+source: RAPA 수업 (2/23)
+created: 2026-02-23
+status: complete
+---
 # 개념
 - 하나의 목적지에 대해 두 개 이상의 라우팅 프로토콜이 경로를 제공하고 있을 때, 해당 경로를 라우팅 테이블에 추가하기 위한 라우팅 프로토콜 신뢰도
 - 낮을수록 신뢰도가 높음.
@@ -16,6 +24,8 @@
 | External EIGRP     | 170                     |
 | Internal BGP       | 200                     |
 |                    |                         |
+# 나만의 언어로
+
 # 관련 개념
 - [[Static Routing]]
 - [[Dynamic Routing]]

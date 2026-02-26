@@ -1,10 +1,20 @@
-# 정의
+---
+uid: 202602230006
+aliases: [Exterior Gateway Protocol]
+tags: [network, routing, routing-protocol, egp]
+source: RAPA 수업 (2/23)
+created: 2026-02-23
+status: complete
+---
+# 개념
 - AS와 AS간 많은 양의 라우팅 정보를 업데이트하는 프로토콜
 - [[BGP]]가 유일함
 - [[IGP]]에 비해 컨버전스는 느리지만 많은 양의 라우팅 정보를 업데이트 가능
 - AS와 AS간 정책 기반 라우팅 구현이 가능함.
 # 핵심 포인트
 대부분 조직 외부적으로만 쓰인다고 생각할 수 있으나, 조직의 규모가 커지면서 AS까지 운용해야 하는 경우가 생기면서 꼭 조직 외부에서만 쓰이는 프로토콜이 더이상 아니게 되었다.
+# 나만의 언어로
+
 # 관련 개념
 - [[Dynamic Routing Protocol]]
 - [[Dynamic Routing]]

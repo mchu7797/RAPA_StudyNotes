@@ -1,3 +1,11 @@
+---
+uid: 202602230019
+aliases: [OSPF 이웃]
+tags: [network, routing, ospf, neighbor]
+source: RAPA 수업 (2/23)
+created: 2026-02-23
+status: complete
+---
 # 개념
 - Link-State 정보를 주고받기 위해서는 인접 장비와 Neighbor 관계 형성이 필요함
 	- [[OSPF]]를 구성하면 라우터는 [[OSPF]]가 활성화된 인터페이스로 Hello 패킷을 송신함.
@@ -6,10 +14,13 @@
 # 하위 개념
 - [[Neighbor 관계 형성 조건]]
 - [[OSPF Neighbor 관계 수립 과정]]
+- [[OSPF Router ID]]
 # 프로토콜 개념
 - [[Link-State Advertisements (LSA)]]
 - [[Link-State Database (LSDB)]]
 - [[Link-State Update (LSU)]]
 - [[Link-State Acknowledge (LSAck)]]
+# 나만의 언어로
+
 # 상위 개념
 - [[OSPF]]
