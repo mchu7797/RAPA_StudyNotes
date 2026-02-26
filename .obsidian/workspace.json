@@ -4,22 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "002cc95d1dbb6432",
+        "id": "f138de9c7ed9986d",
         "type": "tabs",
         "children": [
           {
-            "id": "f07a34039b95e567",
+            "id": "2044e81512154362",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "01_노트/OSPF Area.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "06_참조자료/PPT/260219_네트워크_이론_8_OSPF.pdf"
               },
-              "icon": "lucide-file",
-              "title": "OSPF Area"
+              "icon": "lucide-file-text",
+              "title": "260219_네트워크_이론_8_OSPF"
             }
           }
         ]
@@ -62,7 +59,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "검색"
+              "title": "Search"
             }
           },
           {
@@ -79,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6169ec5b2de5a83a",
@@ -185,49 +183,50 @@
       "bases:Create new base": false
     }
   },
-  "active": "f07a34039b95e567",
+  "active": "2044e81512154362",
   "lastOpenFiles": [
-    "01_노트/OSPF Area.md",
-    "01_노트/OSPF.md",
-    "01_노트/OSPF DR, BDR.md",
+    "06_참조자료/PPT/260203_네트워크_이론_7_네트워크_디자인.pdf",
+    "06_참조자료/PPT/260219_네트워크_이론_8_OSPF.pdf",
+    "06_참조자료/260219_네트워크_이론_8_OSPF.pdf",
+    "06_참조자료/PPT/260128_네트워크_이론_6.pdf",
+    "06_참조자료/PPT/260121_네트워크_이론_5.pdf",
+    "06_참조자료/PPT/260116_네트워크_이론_4.pdf",
+    "06_참조자료/PPT/260116_네트워크_이론_3.pdf",
+    "06_참조자료/PPT/260116_네트워크_이론_3_속도.pdf",
+    "06_참조자료/PPT/260114_네트워크_이론_2.pdf",
+    "06_참조자료/PPT/260112_네트워크_이론.pdf",
+    "06_참조자료/PPT",
+    "00_임시/Administrative Distance & Metric.md",
+    "01_노트/VLAN.md",
+    "01_노트/TCP-IP 모델.md",
+    "01_노트/STP.md",
+    "01_노트/STP Tuning (PortFast, RootGuard, BPDU Guard).md",
+    "01_노트/STP PVST & RPVST.md",
+    "01_노트/STP MST.md",
+    "01_노트/OSI 모델.md",
+    "01_노트/NIC & 케이블.md",
+    "01_노트/Network Design (Campus).md",
+    "01_노트/NAT.md",
+    "01_노트/Multi-Layer Switch.md",
+    "01_노트/MAC 주소.md",
+    "01_노트/Longest Match Rule.md",
+    "01_노트/LAN Switching.md",
+    "01_노트/IPv4 주소 & 클래스.md",
+    "01_노트/IP 라우팅.md",
+    "01_노트/Inter-VLAN Routing.md",
+    "01_노트/ICMP.md",
+    "01_노트/Gateway Redundancy (HSRP, VRRP).md",
+    "01_노트/EtherChannel.md",
+    "01_노트/Default Gateway.md",
+    "01_노트/Cisco IOS.md",
+    "01_노트/ARP.md",
+    "01_노트/Administrative Distance & Metric.md",
     "04_시각자료/ospf_dr_bdr.png",
-    "01_노트/OSPF Passive Interface.md",
-    "01_노트/OSPF Metric을 변경하는 법.md",
-    "01_노트/OSPF Metric.md",
-    "01_노트/Link-State Advertisements (LSA).md",
-    "01_노트/Link-State Database (LSDB).md",
-    "01_노트/Link-State Update (LSU).md",
-    "01_노트/Link-State Description (LSD).md",
-    "01_노트/Administrative Distance.md",
-    "Untitled",
-    "01_노트/Best Path (Dynamic Routing).md",
-    "99_TODO.md",
-    "01_노트/BGP.md",
-    "01_노트/EGP.md",
-    "01_노트/Link-State Acknowledge (LSAck).md",
-    "01_노트/OSPF Neighbor.md",
-    "01_노트/OSPF Router ID.md",
-    "01_노트/OSPF 기본 설정.md",
-    "01_노트/OSPF Neighbor 관계 수립 과정.md",
-    "01_노트/Neighbor 관계 형성 조건.md",
-    "01_노트/Static Routing.md",
-    "01_노트/SPF Algorithm.md",
     "04_시각자료/ospf_router_id.png",
     "04_시각자료/ospf_neighbor_connection.png",
-    "01_노트/IGP.md",
-    "01_노트/EIGRP.md",
     "04_시각자료/ospf_single_area.png",
     "04_시각자료/ospf_multiple_area.png",
-    "02_목차/네트워크",
     "Pasted image 20260219133550.png",
-    "05_탬플릿",
-    "무제.base",
-    "00_임시/무제",
-    "04_시각자료",
-    "04_시각자료/dynamic_routing_protocol.png",
-    "무제 1.base",
-    "03_미사용_저장소",
-    "02_목차",
-    "01_노트"
+    "04_시각자료/dynamic_routing_protocol.png"
   ]
 }

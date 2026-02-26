@@ -12,14 +12,7 @@ status: complete
 	- [[Dynamic Routing Protocol]]의 경로 탐색 알고리즘을 사용하여 해를 구함.
 - 라우팅 테이블에 등록
 ## 경로 선출 우선순위
-1. Administrative Distance
-2. Metric ([[Dynamic Routing Protocol]]마다 계산법이 다름. AD가 동일한 경우 Metric으로 비교)
-	- RIP - Hop Count
-	- OSPF - Cost
-	- ISIS - Cost
-	- EIGRP - Metric
-## 경로 선택
-- Longest Match
+→ [[Administrative Distance & Metric]] 참고
 # 나만의 언어로
 
 # 관련 개념
