@@ -1,8 +1,8 @@
 ---
 uid: 202601140902
 aliases: [NAT, Network Address Translation, Static NAT, Dynamic NAT, PAT, Overload NAT]
-tags: [nat, ipv4, routing, addressing]
-source: 260114_네트워크_이론_2.pdf
+tags: [nat, ipv4, routing, addressing, security]
+source: RAPA 수업 (3/10) - Security NAT
 created: 2026-01-14
 status: complete
 ---
@@ -14,6 +14,7 @@ status: complete
 - **주로 라우터(또는 방화벽)에 구현**, 가정용 공유기에도 적용
 - **Inside Local**: 사설 네트워크 내부 호스트 IP (사설 주소)
 - **Inside Global**: 외부(인터넷)에 보이는 공인 IP 주소
+- **Outside Local / Outside Global**: 외부 호스트 주소(내부 관점/외부 관점)
 
 ---
 
@@ -31,6 +32,27 @@ status: complete
 - 사설 IP 다수 → 공인 IP 1개(또는 소수)로 **포트 번호로 구분**
 - 하나의 공인 IP로 수만 개의 사설 호스트 동시 인터넷 접속 가능
 - `ip nat inside source list [ACL번호] interface [외부인터페이스] overload`
+
+### NAT 구성 기본 순서
+1. 내부/외부 인터페이스 지정  
+   - 내부: `ip nat inside`  
+   - 외부: `ip nat outside`
+2. 변환 기준 트래픽 정의(ACL)
+3. Static/Dynamic/PAT 방식에 맞는 NAT 규칙 적용
+
+예시(PAT):
+```bash
+access-list 1 permit 192.168.10.0 0.0.0.255
+interface g0/0
+ ip nat inside
+interface g0/1
+ ip nat outside
+ip nat inside source list 1 interface g0/1 overload
+```
+
+### 확인 명령어
+- `show ip nat translations`
+- `show ip nat statistics`
 
 ### NAT 동작 원리 (PAT 기준)
 ```
@@ -50,3 +72,4 @@ status: complete
 # 관련 개념
 - [[IP 라우팅]]
 - [[Default Gateway]]
+- [[ACL]]

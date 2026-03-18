@@ -1,0 +1,53 @@
+R&S 기초 이후, 운영/설계 단계에서 자주 쓰는 심화 개념 모음입니다.
+
+## 라우팅 의사결정 심화
+- [[Administrative Distance]]
+- [[Administrative Distance & Metric]]
+- [[Longest Match Rule]]
+- [[Best Path (Dynamic Routing)]]
+
+## STP 심화
+- [[STP PVST & RPVST]]
+- [[STP MST]]
+- [[STP Tuning (PortFast, RootGuard, BPDU Guard)]]
+
+## OSPF 심화
+- [[OSPF]]
+- [[OSPF 기본 설정]]
+- [[OSPF Area]]
+- [[OSPF Router ID]]
+- [[OSPF DR, BDR]]
+- [[OSPF Neighbor]]
+- [[OSPF Neighbor 관계 수립 과정]]
+- [[Neighbor 관계 형성 조건]]
+- [[OSPF Passive Interface]]
+- [[OSPF Metric]]
+- [[OSPF Metric을 변경하는 법]]
+- [[OSPF Reference Bandwidth]]
+- [[OSPF Multi Process]]
+- [[OSPF LSA Type]]
+- [[OSPF LSA Priority]]
+- [[SPF Algorithm]]
+- [[Link-State Advertisements (LSA)]]
+- [[Link-State Database (LSDB)]]
+- [[Link-State Description (LSD)]]
+- [[Link-State Update (LSU)]]
+- [[Link-State Acknowledge (LSAck)]]
+
+## 기타 라우팅/설계 심화
+- [[EIGRP]]
+- [[Redistribute]]
+- [[BGP]]
+- [[BGP Confederation]]
+- [[BGP eBGP & iBGP]]
+- [[BGP Neighbor 상태]]
+- [[BGP 메시지 타입]]
+- [[BGP Advertisements]]
+- [[BGP Network Advertise]]
+- [[BGP Path Vector]]
+- [[BGP Next-Hop-Self]]
+- [[BGP 테이블]]
+- [[Gateway Redundancy (HSRP, VRRP)]]
+- [[EtherChannel]]
+- [[Network Design (Campus)]]
+- [[ACL]]

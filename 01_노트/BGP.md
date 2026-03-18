@@ -13,3 +13,4 @@ status: complete
 
 # 관련 개념
 - [[EGP]]
+- [[BGP Confederation]]
