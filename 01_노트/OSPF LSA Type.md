@@ -35,8 +35,6 @@ status: complete
 |**Type 3**|**Summary LSA**|**옆 동네 소식지.** ABR이 생성. 다른 Area의 상세 지도를 숨기고 "이 IP 대역은 나를 거쳐라"라고 알려줌.|**포함**|
 |**Type 4**|**ASBR Summary**|**ASBR 수배 전단지.** ABR이 생성. 외부로 나가는 통로(ASBR)가 어디 있는지 위치(Router-ID)만 알려줌.|**미포함**|
 |**Type 5**|**External LSA**|**외국 뉴스.** ASBR이 생성. 외부 프로토콜(RIP, EIGRP 등)에서 가져온 경로 정보를 OSPF 전체에 뿌림.|**포함**
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]
 # 관련 개념

@@ -14,8 +14,6 @@ status: complete
 - Router ID
 - Neighbor
 - Cost/Metric
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]
 # 관련 개념

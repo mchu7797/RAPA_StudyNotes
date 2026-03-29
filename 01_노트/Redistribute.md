@@ -56,8 +56,6 @@ router rip
 - OSPF에서 재분배 설정을 하는 순간 해당 라우터는 ASBR로 선언됨
 - Static 경로를 재분배하는 경우, 상대측에 Return Traffic을 위한 정적 경로가 필요할 수 있음
 - 재분배 시 Seed Metric 설정을 잊지 말 것 (프로토콜마다 Metric 체계가 다름)
-# 나만의 언어로
-
 # 상위 개념
 - [[Dynamic Routing]]
 # 관련 개념

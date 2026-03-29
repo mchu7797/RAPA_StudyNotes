@@ -21,8 +21,6 @@ R1(config-router)#auto-cost reference-bandwidth 10000
 R3(config)#int gi 0/1/0
 R3(config-if)#ip ospf cost 191
 ```
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF Metric]]
 - [[OSPF]]

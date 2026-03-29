@@ -26,8 +26,6 @@ status: complete
   - VLAN을 Distribution 위(Core)로 확장 금지 → Distribution 이상은 L3 동작
 - **Switch Block**: Distribution + Access 쌍으로 구성, 확장 시 블록 단위로 추가
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 3단 물류창고처럼: Access(현장 작업자) → Distribution(팀장, 부서 통합) → Core(본사, 전체 트래픽 처리). 확장·유지보수·고가용성을 갖춘 설계.
 
 # 상위 개념

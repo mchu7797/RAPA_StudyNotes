@@ -44,8 +44,6 @@ STP의 동작을 최적화하거나 토폴로지를 보호하기 위한 기능�
   - BPDU 미수신 포트를 Loop-Inconsistent 상태로 차단
   - 설정: `spanning-tree loopguard default` (글로벌)
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 - PortFast: PC 연결 포트에서 30초 대기를 없애 즉시 통신 가능하게 함
 - RootGuard: "이 포트로는 새 반장 후보를 받지 않겠다"
 - BPDU Guard: "이 포트로 BPDU가 오면 즉시 차단 (무단 스위치 연결 차단)"

@@ -29,8 +29,6 @@ status: draft
 - iBGP는 AS 내부에서 eBGP로 학습한 경로를 전달하기 위해 사용한다.
 - iBGP는 full-mesh 구성이 기본 → 라우터 수가 많아지면 [[BGP Route Reflector]]로 해결
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 
 # 상위 개념
 - [[BGP]]

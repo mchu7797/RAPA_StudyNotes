@@ -41,8 +41,6 @@ show ip bgp summary
 - **Established** = 정상 동작 상태. 이 상태에서만 라우팅 정보(UPDATE)를 교환한다.
 - Hold Time : 기본 180초, 이 시간 내에 KEEPALIVE가 없으면 세션 종료
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 
 # 상위 개념
 - [[BGP]]

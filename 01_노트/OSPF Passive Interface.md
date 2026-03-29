@@ -15,7 +15,5 @@ status: complete
 Router(config)#router ospf 1
 Router(config-router)#passive-interface ? # ?의 내용을 인터페이스 명칭으로 치환
 ```
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]

@@ -12,8 +12,6 @@ status: complete
 # 핵심 포인트
 Routing 구성을 완성하려면 관리자가 무조건 개입해야 한다는 점이다.
 
-# 나만의 언어로
-
 # 관련 개념
 - [[Dynamic Routing]]
 - [[Administrative Distance]]

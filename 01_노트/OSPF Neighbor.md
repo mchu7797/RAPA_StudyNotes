@@ -20,7 +20,5 @@ status: complete
 - [[Link-State Database (LSDB)]]
 - [[Link-State Update (LSU)]]
 - [[Link-State Acknowledge (LSAck)]]
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]

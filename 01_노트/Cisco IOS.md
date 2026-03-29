@@ -28,8 +28,6 @@ Cisco IOS(Internetwork Operating System)는 대부분의 Cisco 엔터프라이�
 - **공장 초기화**: `wr erase` 또는 `erase startup-config` → `reload`
 - **show 명령어 필터**: `| begin`, `| include`, `| exclude`, `| section`
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 Cisco 장비는 계층적 CLI로 설정한다. Running config는 RAM에 있어 재부팅하면 사라짐 → 반드시 `wr` 로 NVRAM에 저장해야 한다.
 
 # 상위 개념

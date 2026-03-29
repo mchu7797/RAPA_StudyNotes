@@ -31,8 +31,6 @@ O (Intra-Area)  >  O IA (Inter-Area)  >  O E1 (External Type-1)  >  O E2 (Extern
 2. `O` 경로 제거 후: `O IA 1.1.1.1 [110/11]` 선택
 3. `O IA` 경로 제거 후: `O E1 1.1.1.1 [110/30]` 선택 (Hop에 따라 Cost 변동)
 4. `O E1` 경로 제거 후: `O E2 1.1.1.1 [110/20]` 선택 (Hop과 무관하게 Cost 고정)
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]
 # 관련 개념

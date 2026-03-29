@@ -27,8 +27,6 @@ router ospf 2
 	- Multi Area: 하나의 OSPF Process 내에서 여러 Area로 나누어 운영
 	- Multi Process: 완전히 독립적인 OSPF Process를 여러 개 운영
 - Process 간 경로 공유가 필요하면 반드시 재분배 설정이 필요함
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]
 # 관련 개념

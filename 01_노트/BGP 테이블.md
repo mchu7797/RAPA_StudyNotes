@@ -44,8 +44,6 @@ BGP table version is 5, local router ID is 1.1.1.1
 - Next-Hop이 도달 불가능하면 `*`(valid)도 붙지 않아 경로로 사용될 수 없다.
 - iBGP로 학습한 경로를 최적 경로로 쓰려면 **Next-Hop이 IGP로 도달 가능해야 한다.**
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 
 # 상위 개념
 - [[BGP]]

@@ -15,8 +15,6 @@ cost = reference_bandwidth / interface_bandwith
 # 핵심 포인트
 - 기본 설정에서는 FastEthernet 이상의 링크를 모두 동일한 Cost로 계산하는 오류가 발생함.
 - 따라서 현대 네트워크 환경에서는 모든 장비의 참조 대역폭을 동일하게 높여줘야 함.
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]
 - [[OSPF Metric]]

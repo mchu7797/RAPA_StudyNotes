@@ -13,8 +13,6 @@ status: complete
 - 라우팅 테이블에 등록
 ## 경로 선출 우선순위
 → [[Administrative Distance & Metric]] 참고
-# 나만의 언어로
-
 # 관련 개념
 - [[Dynamic Routing]]
 - [[Dynamic Routing Protocol]]

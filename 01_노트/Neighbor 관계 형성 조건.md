@@ -22,7 +22,5 @@ status: complete
 - 안전한 Neighbor 관계 성립을 위해 인증 설정 (Option)
 ### ==Stub Area Flag==
 - Stub란, Area와 다른 유형의 Area로, 동일한 Stub Area에 속해야 Neighbor 가능(Option)
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF Neighbor]]

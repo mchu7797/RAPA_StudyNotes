@@ -8,8 +8,6 @@ status: complete
 ---
 # 개념
 → [[Administrative Distance & Metric]] 참고
-# 나만의 언어로
-
 # 관련 개념
 - [[Static Routing]]
 - [[Dynamic Routing]]

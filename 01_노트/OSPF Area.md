@@ -26,8 +26,6 @@ status: complete
 ![[ospf_single_area.png]]
 ## 멀티 토폴로지
 ![[ospf_multiple_area.png]]
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]
 # 관련 개념

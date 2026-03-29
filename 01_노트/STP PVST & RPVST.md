@@ -37,8 +37,6 @@ PVST는 VLAN별로 독립적인 STP 인스턴스를 실행하는 Cisco 구현 �
   SW1(config)#spanning-tree vlan [VLAN-ID] priority 4096
   ```
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 PVST = VLAN마다 STP 반장을 따로 뽑아 트래픽을 분산. RPVST = 같은 방식이지만 반장이 바뀔 때 훨씬 빨리 새 반장이 정해진다.
 
 # 상위 개념

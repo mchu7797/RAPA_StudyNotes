@@ -34,8 +34,6 @@ status: complete
   - Max Age: 20sec (BPDU 미수신 시 최대 대기 시간)
   - Forward Delay: 15sec (Listening, Learning 각각 유지 시간)
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 스위치 이중화 = 루프 위험. STP는 "나쁜 경로"를 하나 막아(BLK) 루프를 없앤다. Root Bridge는 반장 역할, 모든 경로는 반장 기준으로 결정된다.
 
 # 상위 개념

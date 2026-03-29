@@ -33,7 +33,5 @@ status: complete
 1. **DR 장애** : BDR → DR 승격, DROTHER 중 BDR 재선출
 2. **DR의 Priority를 0으로 변경** : DR → DROTHER, BDR → DR 승격, DROTHER 중 BDR 재선출
 3. **모든 장비 OSPF 재설정** : DR/BDR 전체 재선출
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF]]

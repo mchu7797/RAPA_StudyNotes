@@ -15,8 +15,6 @@ status: complete
 - [[OSPF Neighbor]] 협상 과정에서 결정된 Router ID는 변경 불가
 	- Router ID 변경을 위해서는 [[OSPF Neighbor]] 재협상이 필요함.
 ![[ospf_router_id.png]]
-# 나만의 언어로
-
 # 상위 개념
 - [[OSPF Neighbor]]
 - [[OSPF]]

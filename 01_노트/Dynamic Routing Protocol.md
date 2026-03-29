@@ -11,8 +11,6 @@ status: complete
 # 구성 참조 이미지
 ![[dynamic_routing_protocol.png]]
 
-# 나만의 언어로
-
 # 하위 개념
 - [[IGP]]
 - [[EGP]]

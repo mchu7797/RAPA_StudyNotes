@@ -27,8 +27,6 @@ status: complete
 - **Floating Static**: AD 값 높게 설정 → 기본 경로 장애 시 백업 경로로 활성화
 - AD (Administrative Distance): 낮을수록 신뢰도 높음 (Connected=0, Static=1, OSPF=110, RIP=120)
 
-# 나만의 언어로
-<!-- 이 개념을 누군가에게 설명한다면? 비유, 요약, 한 줄 정리 등 -->
 라우터는 내비게이션이 달린 우체부. 목적지(IP)를 보고 어느 방향으로 보낼지(라우팅 테이블) 결정하고, 다음 우체국(Next-hop)으로 넘긴다. 매 홉마다 봉투(MAC)는 바꾸지만 편지 내용(IP)은 그대로.
 
 # 상위 개념
